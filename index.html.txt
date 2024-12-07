@@ -1,0 +1,178 @@
+TRADESTORE
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Διαγωνισμός Tradestore.gr – Κέρδισε Κονσόλα Παιχνιδιών & Multimedia!</title>
+    <style>
+        /* Στυλ για το κουμπί */
+        .terms-button {
+            background-color: #D32F2F;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .terms-button:hover {
+            background-color: #C2185B;
+        }
+
+        /* Στυλ για το modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            overflow: auto;
+        }
+
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .main-content {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #D32F2F;
+        }
+
+        h2 {
+            color: #FF5722;
+        }
+
+        .cta-button {
+            background-color: #FF5722;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            background-color: #C2185B;
+        }
+
+        img {
+            width: 300px;
+            margin-top: 20px;
+        }
+
+        .gift-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Κύριο περιεχόμενο -->
+    <div class="main-content">
+        <h1>Συναρπαστικός Διαγωνισμός από το Tradestore.gr</h1>
+        <h2>Διεκδικήστε μία κονσόλα παιχνιδιών & multimedia με προτζέκτορα και 2 χειριστήρια!</h2>
+        
+        <!-- Εικόνα Δώρου: Κονσόλα παιχνιδιών με προτζέκτορα -->
+        <img src="images/όνομα_εικόνας.jpg" alt="Κονσόλα παιχνιδιών & multimedia με προτζέκτορα και 2 χειριστήρια" />
+
+        <p>Πραγματοποιήστε μία αγορά αξίας τουλάχιστον 20€ και αποκτήστε το εισιτήριό σας για τη μεγάλη κλήρωση!</p>
+        <p>Με κάθε αγορά άνω των 20€, κερδίζετε επίσης ένα κουπόνι έκπτωσης 10% για την επόμενη σας αγορά.</p>
+
+        <!-- Κουμπί που οδηγεί στο tradestore.gr -->
+        <button class="cta-button" onclick="window.location.href='https://tradestore.gr';">Αγόρασε και μπες στην κλήρωση</button>
+        
+        <br><br>
+
+        <!-- Κουμπί για να ανοίξει το modal με τους Όρους και Προϋποθέσεις -->
+        <button id="termsButton" class="terms-button">Όροι και Προϋποθέσεις</button>
+    </div>
+
+    <!-- Modal με τους Όρους -->
+    <div id="termsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Όροι Συμμετοχής στον Διαγωνισμό του Tradestore.gr</h2>
+            <p><strong>1. Διοργανωτής Διαγωνισμού</strong><br>
+            Ο διαγωνισμός διοργανώνεται από την εταιρεία <strong>Tradestore.gr</strong>, με έδρα στην Οδό Μακεδονομάχων 4.</p>
+
+            <p><strong>2. Διάρκεια Διαγωνισμού</strong><br>
+            Ο διαγωνισμός θα ξεκινήσει στις <strong>10 Δεκεμβρίου 2024</strong> και θα διαρκέσει έως τις <strong>30 Δεκεμβρίου 2024</strong>.</p>
+
+            <p><strong>3. Δικαίωμα Συμμετοχής</strong><br>
+            Στον διαγωνισμό έχουν δικαίωμα συμμετοχής όλοι οι ενήλικοι κάτοικοι Ελλάδας που πραγματοποιούν αγορά από το <strong>Tradestore.gr</strong> αξίας τουλάχιστον 20€, εντός της περιόδου του διαγωνισμού.</p>
+
+            <p><strong>4. Πως να Συμμετέχετε</strong><br>
+            Για να συμμετάσχετε, ολοκληρώστε μια αγορά από το <strong>Tradestore.gr</strong> αξίας τουλάχιστον 20€ κατά τη διάρκεια του διαγωνισμού. Με κάθε επιλέξιμη αγορά, θα έχετε αυτόματα μια συμμετοχή στην κλήρωση, καθώς και ένα κουπόνι έκπτωσης 10% για την επόμενη αγορά σας.</p>
+
+            <p><strong>5. Δώρα Διαγωνισμού</strong><br>
+            Το έπαθλο του διαγωνισμού είναι μία <strong>κονσόλα παιχνιδιών & multimedia με προτζέκτορα και 2 χειριστήρια</strong>. Ο νικητής θα ενημερωθεί μέσω email και θα παραλάβει το δώρο μέσω <strong>κούριερ</strong>.</p>
+
+            <p><strong>6. Κλήρωση και Ανάδειξη Νικητή</strong><br>
+            Η κλήρωση θα πραγματοποιηθεί στις <strong>30 Δεκεμβρίου 2024</strong> και ώρα <strong>18:00</strong>. Αν ο νικητής δεν απαντήσει εντός 7 ημερών, το δώρο θα αποδοθεί σε άλλον τυχερό.</p>
+
+            <p><strong>7. Προσωπικά Δεδομένα</strong><br>
+            Η συμμετοχή στον διαγωνισμό συνεπάγεται την αποδοχή της χρήσης των προσωπικών δεδομένων για τις ανάγκες διεξαγωγής του διαγωνισμού και της αποστολής του δώρου. Η <strong>Tradestore.gr</strong> δεσμεύεται να διαχειριστεί τα προσωπικά δεδομένα με βάση την Πολιτική Απορρήτου της.</p>
+
+            <p><strong>8. Ευθύνη</strong><br>
+            Η <strong>Tradestore.gr</strong> δεν φέρει ευθύνη για τυχόν ζημιές ή απώλειες που προκύπτουν από τη συμμετοχή στο διαγωνισμό ή τη χρήση του δώρου. Η συμμετοχή συνεπάγεται την αποδοχή των όρων και προϋποθέσεων.</p>
+
+            <p><strong>9. Αλλαγές στους Όρους</strong><br>
+            Η <strong>Tradestore.gr</strong> διατηρεί το δικαίωμα να τροποποιήσει τους όρους του διαγωνισμού οποιαδήποτε στιγμή, χωρίς προηγούμενη ειδοποίηση.</p>
+
+            <p><strong>10. Ισχύον Δίκαιο</strong><br>
+            Ο διαγωνισμός διέπεται από την Ελληνική Νομοθεσία.</p>
+        </div>
+    </div>
+
+    <script>
+        var modal = document.getElementById("termsModal");
+        var btn = document.getElementById("termsButton");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
